@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address[
+<!ELEMENT address (contact)>
+<!ELEMENT contact (name,city,work)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT work (#PCDATA)>
+]>
+
+<address>
+<contact>
+    <name>Nitin patil</name>
+    <city>Jath</city>
+    <work>Student</work>
+</contact>
+</address>
